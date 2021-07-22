@@ -95,3 +95,20 @@ body nav {
   right: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 50%; }
+
+/* __________________________FLETES ________________________*/
+.bannerFletes {
+  padding-top: 13rem;
+  padding-bottom: 12rem;
+  background-image: url(../img/cajaoscura.jpg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  margin-bottom: 15px;
+  background-image: url(../img/Fletes1.png);
+  background-position: top;
+  padding-bottom: 18rem; }
+
+.text-orange {
+  color: #ffbc13; }
