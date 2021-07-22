@@ -1,0 +1,27 @@
+{
+  "name": "proyecto-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "build-css": "node-sass --include-path scss scss/style.scss css/estilos.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmanuelLeandro/Primer_Repositorio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EmanuelLeandro/Primer_Repositorio/issues"
+  },
+  "homepage": "https://github.com/EmanuelLeandro/Primer_Repositorio#readme",
+  "description": ""
+}

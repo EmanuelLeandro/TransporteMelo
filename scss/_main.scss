@@ -1,0 +1,82 @@
+body nav {
+	background-color: $fondoNegro;
+}
+.btn-primario {
+	@include boton;
+	&:hover {
+		background-color: $colorBlanco;
+		color: $colorNegro;
+		text-decoration: none;
+		color: $colorNegro;
+	}
+}
+
+.btn-secundario {
+	@include boton;
+	background-color: $colorCeleste;
+	&:hover {
+		background-color: $colorBlanco;
+		color: $colorNegro;
+		text-decoration: none;
+		color: $colorNegro;
+	}
+}
+.modal-content a {
+	color: #f8f9fa;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.banner {
+	@include banner;
+}
+.bannerPagos {
+	display: flex;
+}
+.textoPagos {
+	padding-top: 50px;
+	margin: 0 300px;
+}
+.imgTarjetas {
+	margin: 0 20px;
+}
+.bannerPagos img {
+	width: 500px;
+	height: auto;
+}
+
+.logoSecundario {
+	width: 100%;
+	height: auto;
+}
+.logo {
+	height: 80px;
+	width: 240px;
+	position: relative;
+	margin: 10px auto;
+	img {
+		position: absolute;
+		margin: auto;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		max-width: 100%;
+	}
+}
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 8px;
+	background-color: $colorNegro;
+	width: 100%;
+}
+.wa a img {
+	width: 50px;
+	position: fixed;
+	bottom: 100px;
+	right: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 50%;
+}

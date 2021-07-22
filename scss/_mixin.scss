@@ -1,0 +1,21 @@
+@mixin boton {
+	padding: 18px 112px;
+	border-radius: 30px;
+	border: 1px solid transparent;
+	background-color: $colorNaranja;
+	box-shadow: 7px 11px 10px -6px rgba(0, 0, 0, 0.4);
+	transition: all 0.2s ease-in-out;
+	text-decoration: none;
+	color: $colorNegro;
+}
+
+@mixin banner {
+	padding-top: 13rem;
+	padding-bottom: 12rem;
+	background-image: url(../img/cajaoscura.jpg);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	margin-bottom: 15px;
+}
