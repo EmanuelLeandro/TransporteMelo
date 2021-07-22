@@ -85,11 +85,38 @@ body nav {
 
 .bannerFletes {
 	@include banner;
-	background-image: url(../img/Fletes1.png);
-	background-position: top;
+	background-image: url(../img/bannerfletes.jpg);
 	padding-bottom: 18rem;
 }
 
 .text-orange {
 	color: $colorNaranja;
+}
+
+/* ______________________ MUDANZAS ____________________________*/
+.bannerMudanza {
+	@include banner;
+	background-image: url(../img/bannerMudanzas.jpg);
+	padding-bottom: 18rem;
+	background-position: top;
+}
+
+.text-blue {
+	color: $colorCeleste;
+}
+
+/* __________________________ EMPRESA__________________________*/
+.bannerEmpresa {
+	@include banner;
+	background-image: url(../img/bannerEmpresas.jpg);
+	padding-bottom: 18rem;
+	background-position: top;
+}
+
+/* __________________________ CONTACTO__________________________*/
+.bannerContacto {
+	@include banner;
+	background-image: url(../img/bannerContactos.jpg);
+	padding-bottom: 18rem;
+	background-position: top;
 }

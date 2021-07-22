@@ -106,9 +106,53 @@ body nav {
   background-position: bottom;
   background-size: cover;
   margin-bottom: 15px;
-  background-image: url(../img/Fletes1.png);
-  background-position: top;
+  background-image: url(../img/bannerfletes.jpg);
   padding-bottom: 18rem; }
 
 .text-orange {
   color: #ffbc13; }
+
+/* ______________________ MUDANZAS ____________________________*/
+.bannerMudanza {
+  padding-top: 13rem;
+  padding-bottom: 12rem;
+  background-image: url(../img/cajaoscura.jpg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  margin-bottom: 15px;
+  background-image: url(../img/bannerMudanzas.jpg);
+  padding-bottom: 18rem;
+  background-position: top; }
+
+.text-blue {
+  color: #05ccc2; }
+
+/* __________________________ EMPRESA__________________________*/
+.bannerEmpresa {
+  padding-top: 13rem;
+  padding-bottom: 12rem;
+  background-image: url(../img/cajaoscura.jpg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  margin-bottom: 15px;
+  background-image: url(../img/bannerEmpresas.jpg);
+  padding-bottom: 18rem;
+  background-position: top; }
+
+/* __________________________ CONTACTO__________________________*/
+.bannerContacto {
+  padding-top: 13rem;
+  padding-bottom: 12rem;
+  background-image: url(../img/cajaoscura.jpg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  margin-bottom: 15px;
+  background-image: url(../img/bannerContactos.jpg);
+  padding-bottom: 18rem;
+  background-position: top; }
