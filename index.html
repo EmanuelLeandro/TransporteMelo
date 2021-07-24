@@ -16,7 +16,7 @@
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-dark ml-auto" data-toggle="modal" data-target="#staticBackdrop">
            <div class="ml-auto">
-              <ul class="navbar-nav  mt-2 mt-lg-0">
+              <ul class="navbar-nav mt-2 mt-lg-0">
                  <li class="nav-item active ">
                   <ion-icon name="menu-outline" clas></ion-icon>
                 </li>
@@ -27,7 +27,10 @@
         <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" >
           <div class="modal-dialog">
             <div class="modal-content bg-dark">
-              <div class="modal-header mx-auto border-bottom-0">
+              <div class="modal-header border-bottom-0">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
               </div>
                 <div class="modal-body text-center">
                   <ul class="list-unstyled">
@@ -47,10 +50,7 @@
                       <a class="nav-link text-black" href="pages/contacto.html">Contacto</a>
                     </li>
                   </ul>
-                  
-                </div>
-                <div class="modal-footer mx-auto border-top-0">
-                  <button type="button" class="btn btn-secondary bg-color" data-dismiss="modal">Cerrar</button>
+          
                 </div>
            </div>
           </div>
@@ -60,57 +60,17 @@
       <div class="banner text-center">
         <div class="container mb-1">
           <article class="text-center w-75 mx-auto">
-            <h1 class="text-light display-4 font-weight-bold">¿QUÉ NECESITAS?</h1>
-            <p class="text-light mb-5">
-              HACÉ CLICK EN EL SERVICIO QUE BUSCAS PARA CONOCER PRECIOS Y MEDIDAS
-              DE LOS VEHÍCULOS
+            <p class="text-light display-4 type-extraBold text-xlg">¿QUÉ NECESITAS?</p>
+            <p class="text-light mb-5 type-bold">
+              HACÉ CLICK EN EL SERVICIO QUE BUSCAS PARA CONOCER PRECIOS Y MEDIDAS DE LOS VEHÍCULOS
             </p> 
-            <a class="btn-primario mr-5" href="pages/fletes.html">Fletes</a>
-            <a class="btn-secundario" href="pages/mudanza.html" >Mudanzas</a>
+            <a class="btn-primario mr-5 type-medium text-lg" href="pages/fletes.html">Fletes</a>
+            <a class="btn-secundario type-medium text-lg" href="pages/mudanza.html" >Mudanzas</a>
           </article>
         </div>
       </div>
       
-      <article class="bannerPagos text-center">
-          <div class="textoPagos">
-            <h2>Pagá con tarjeta y en cuotas</h2>
-            <p>
-              Podés pagar con tarjeta de crédito, débito o transferencia bancaria. No tomamos seña por la reserva
-              ni cobramos por adelantado, cualquier medio de pago que elijas lo abonas al finalizar el servicio.
-            </p>
-          </div>
-          <div class="imgTarjetas">
-            <img src="img/mercado-pago-banner.png" alt="formas de pago">
-          </div>
-      </article>
-
-
-    
-      <article class="text-center">
-        <h2>Seguridad y Respaldo</h2>
-          <p>
-            Contamos con la cobertura necesaria para evitar cualquier tipo de inconveniente.
-          </p> 
-        
-        <div class="logosSecundarios d-flex justify-content-between ">
-          <div class="box">
-            <div class="logo">
-              <a href="www.google.com"><img src="img/lojack-logo-final.png" alt=""></a>
-            </div>
-          </div>
-          <div class="box">
-            <div class="logo">
-              <img  src="img/mapfre-logo-final.png" alt="">
-          </div>
-          </div>
-          <div class="box">
-            <div class="logo">
-              <img   src="img/vtv-logo-final.png" alt="">
-            </div>
-          </div>
-        </div>
-      </article>
-    
+      
     
 
 
@@ -141,6 +101,6 @@
 
       <script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
       <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-      
+
 </body>
 </html>
