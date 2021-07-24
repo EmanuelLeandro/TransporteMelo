@@ -10,95 +10,200 @@
     <title>Transporte Melo</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg nav-light bg-color">
-        <a class="navbar-brand text-dark font-weight-bold" href="../index.html">Transporte Melo</a>
-  
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-dark ml-auto" data-toggle="modal" data-target="#staticBackdrop">
-           <div class="ml-auto">
-              <ul class="navbar-nav  mt-2 mt-lg-0">
-                 <li class="nav-item active ">
-                  <ion-icon name="menu-outline" clas></ion-icon>
-                </li>
-             </ul>
-          </div> 
-        </button>
-            <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" >
-          <div class="modal-dialog">
-            <div class="modal-content bg-dark">
-              <div class="modal-header mx-auto border-bottom-0">
-              </div>
-                <div class="modal-body text-center">
-                  <ul class="list-unstyled">
-                    <li class="display-4 mb-2" >
-                      <a class="text-white" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="display-4 mb-2">
-                      <a class="nav-link text-black" href="fletes.html">Fletes</a>
-                    </li>
-                    <li class="display-4 mb-2">
-                      <a class="nav-link text-black" href="mudanza.html">Mudanzas</a>
-                    </li>
-                    <li class="display-4 mb-2">
-                      <a class="nav-link text-black" href="empresa.html">Empresas</a>
-                    </li>
-                    <li class="display-4 mb-2">
-                      <a class="nav-link text-black" href="contacto.html">Contacto</a>
-                    </li>
-                  </ul>
-                  
-                </div>
-                <div class="modal-footer mx-auto border-top-0">
-                  <button type="button" class="btn btn-secondary bg-color" data-dismiss="modal">Cerrar</button>
-                </div>
-           </div>
+  <nav class="navbar navbar-expand-lg nav-light bg-color">
+    <a class="navbar-brand text-dark font-weight-bold" href="index.html">Transporte Melo</a>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-dark ml-auto" data-toggle="modal" data-target="#staticBackdrop">
+       <div class="ml-auto">
+          <ul class="navbar-nav  mt-2 mt-lg-0">
+             <li class="nav-item active ">
+              <ion-icon name="menu-outline" clas></ion-icon>
+            </li>
+         </ul>
+      </div> 
+    </button>
+        <!-- Modal -->
+    <div class=" modalMenu modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" >
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <div class="modal-header border-bottom-0">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-        </div>
-      </nav>
+            <div class="modal-body text-center">
+              <ul class="list-unstyled">
+                <li class="display-4 mb-2" >
+                  <a class="text-white" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="display-4 mb-2">
+                  <a class="nav-link text-black" href="fletes.html">Fletes</a>
+                </li>
+                <li class="display-4 mb-2">
+                  <a class="nav-link text-black" href="mudanza.html">Mudanzas</a>
+                </li>
+                <li class="display-4 mb-2">
+                  <a class="nav-link text-black" href="empresa.html">Empresas</a>
+                </li>
+                <li class="display-4 mb-2">
+                  <a class="nav-link text-black" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+      
+            </div>
+       </div>
+      </div>
+    </div>
+  </nav>
       <!-- fin del nav -->
       <div class="bannerFletes text-center">
         <div class="container mb-1">
           <article class="text-center w-75 mx-auto">
-            <h1 class="text-orange display-4 font-weight-bold ">FLETES</h1>
-        
-        
+            <h1 class="text-orange type-extraBold text-xlg ">Fletes</h1>
+            <p class="text-orange type-medium text-md ">
+            Realizamos todo tipo de traslados, contamos con vehiculos propios con seguimiento satelital y las licencias habilitantes correspondientes
+            </p>
           </article>
         </div>
       </div>
+
+
+    <article>
+      <h2 class="type-extraBold text-xlg text-center">Tipos de vehículos</h2>
+      <p class="type-medium text-md text-center">
+        Nuestra amplia flota nos permite cubrir todas tus necesidades, hacé click en “ver medidas” y conocé las dimensiones de cada unidad
+      </p>
+    </article>
+      
+
       <!-- card 1 -->
 <div class="d-flex no-gutters ml-5">
     <div class="col-4 ml-5">
-      <div class="card" style="width: 18rem;">
+      <div class="card">
         <img src="../img/camion.jpg" class="card-img-top" alt="Camión">
         <div class="card-body">
           <h5 class="card-title">Camión</h5>
-          <a href="#" class="btn btn-primary">Ver medidas</a>
+          <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary type-bold text-md" data-toggle="modal" data-target="#exampleModal">
+                Ver Medidas
+              </button>
+              <!-- Modal -->
+              <div class="modalMedidas modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="../img/camionMedidas.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>     
+            </div>
         </div>
       </div>
-    </div>
+    
       <!-- card 2 -->
       <div class="col-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card">
           <img src="../img/camioneta.png" class="card-img-top" alt="Camión">
           <div class="card-body">
             <h5 class="card-title">Trafic </h5>
-            <a href="#" class="btn btn-primary">Ver medidas</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary type-bold text-md" data-toggle="modal" data-target="#exampleModal2">
+              Ver Medidas
+            </button>
+            <!-- Modal -->
+            <div class="modalMedidas modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="../img/medidastrafic.gif" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>    
           </div>
         </div>
       </div>
       <!-- card 3 -->
       <div class="col-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" >
           <img src="../img/kango.png" class="card-img-top" alt="Camión">
-          <div class="card-body">
+          <div class="card-body mt-4">
             <h5 class="card-title">Kango</h5>
-            <a href="#" class="btn btn-primary">Ver medias</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary type-bold text-md" data-toggle="modal" data-target="#exampleModal3">
+              Ver Medidas
+            </button>
+            <!-- Modal -->
+            <div class="modalMedidas modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="../img/medidaskangoo.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>    
           </div>
         </div>
       </div>
 </div>
-    
+<article class="bannerPagos text-center ">
+  <div class="textoPagos">
+    <h2 class="type-extraBold text-xlg">Pagá con tarjeta y en cuotas</h2>
+    <p class="type-bold text-md mb-5">
+      Podés pagar con tarjeta de crédito, débito o transferencia bancaria. No tomamos seña por la reserva
+      ni cobramos por adelantado, cualquier medio de pago que elijas lo abonas al finalizar el servicio.
+    </p>
+  </div>
+  <div class="imgTarjetas">
+    <a href="https://www.mercadopago.com.ar/"><img src="../img/mercado-pago-banner.png" alt="formas de pago"></a>
+  </div>
+</article>
+
+
+
+<article class="text-center mt-5">
+<h2 class="type-extraBold text-xlg">Seguridad y Respaldo</h2>
+  <p class="type-bold text-md">
+    Contamos con la cobertura necesaria para evitar cualquier tipo de inconveniente.
+  </p> 
+
+<div class="logosSecundarios d-flex justify-content-between ">
+  <div class="box">
+    <div class="logo">
+      <a href="https://www.lojacklatam.com/"><img src="../img/lojack-logo-final.png" alt=""></a>
+    </div>
+  </div>
+  <div class="box">
+    <div class="logo">
+      <a href="https://www.mapfre.com.ar/seguros-ar/"><img  src="../img/mapfre-logo-final.png" alt=""></a>
+  </div>
+  </div>
+  <div class="box">
+    <div class="logo">
+      <a href="https://www.buenosaires.gob.ar/tramites/vtv"><img   src="../img/vtv-logo-final.png" alt=""></a>
+    </div>
+  </div>
+</div>
+</article>
+
 
 
     
