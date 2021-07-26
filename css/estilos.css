@@ -1,12 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&family=Work+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800&display=swap");
 body nav {
   background-color: black; }
+
+.type-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100; }
+
+.type-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300; }
+
+.type-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400; }
+
+.type-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; }
+
+.type-extraBold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800; }
+
+.text-xsm {
+  font-size: 10px; }
+
+.text-sm {
+  font-size: 16px; }
+
+.text-md {
+  font-size: 20px; }
+
+.text-lg {
+  font-size: 45px; }
+
+.text-xlg {
+  font-size: 60px; }
+
+.nav-item ion-icon {
+  font-size: 1.5rem; }
 
 .btn-primario {
   padding: 18px 112px;
   border-radius: 30px;
   border: 1px solid transparent;
-  background-color: #ffbc13;
+  background-color: #f8b200;
   box-shadow: 7px 11px 10px -6px rgba(0, 0, 0, 0.4);
   transition: all 0.2s ease-in-out;
   text-decoration: none;
@@ -21,7 +59,7 @@ body nav {
   padding: 18px 112px;
   border-radius: 30px;
   border: 1px solid transparent;
-  background-color: #ffbc13;
+  background-color: #f8b200;
   box-shadow: 7px 11px 10px -6px rgba(0, 0, 0, 0.4);
   transition: all 0.2s ease-in-out;
   text-decoration: none;
@@ -32,6 +70,16 @@ body nav {
     color: black;
     text-decoration: none;
     color: black; }
+
+.modalMenu .close {
+  float: right;
+  font-size: 2.5rem;
+  color: #f8f9fa;
+  text-shadow: 0 1px 0 #fff; }
+  .modalMenu .close:hover {
+    color: #fff; }
+  .modalMenu .close:focus {
+    outline: none; }
 
 .modal-content a {
   color: #f8f9fa;
@@ -48,12 +96,64 @@ body nav {
   background-size: cover;
   margin-bottom: 15px; }
 
-.bannerPagos {
-  display: flex; }
+.wa a img {
+  width: 50px;
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%; }
+
+/* __________________________FLETES ________________________*/
+.bannerFletes {
+  padding-top: 13rem;
+  padding-bottom: 12rem;
+  background-image: url(../img/cajaoscura.jpg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  margin-bottom: 15px;
+  background-image: url(../img/bannerfletes.jpg);
+  padding-bottom: 18rem; }
+
+.text-orange {
+  color: #f8b200; }
+
+.modalMedidas .modal-body img {
+  width: 100%; }
+
+.modalMedidas .modal-header {
+  border: none; }
+
+.modalMedidas .close:focus {
+  outline: none; }
+
+.btn-primary {
+  background-color: #f8b200;
+  border-color: black;
+  color: black; }
+  .btn-primary:focus {
+    outline: none !important;
+    background-color: #f8b200;
+    box-shadow: none !important;
+    border-color: black; }
+  .btn-primary:hover {
+    background-color: #eec357;
+    color: black;
+    border-color: black; }
+  .btn-primary:active {
+    background-color: #f8b200 !important;
+    border-color: black !important;
+    color: black !important; }
+
+.card {
+  width: 18rem !important;
+  height: 320px !important; }
 
 .textoPagos {
   padding-top: 50px;
-  margin: 0 300px; }
+  margin: 0 30px; }
 
 .imgTarjetas {
   margin: 0 20px; }
@@ -88,30 +188,6 @@ body nav {
   background-color: black;
   width: 100%; }
 
-.wa a img {
-  width: 50px;
-  position: fixed;
-  bottom: 100px;
-  right: 40px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 50%; }
-
-/* __________________________FLETES ________________________*/
-.bannerFletes {
-  padding-top: 13rem;
-  padding-bottom: 12rem;
-  background-image: url(../img/cajaoscura.jpg);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  margin-bottom: 15px;
-  background-image: url(../img/bannerfletes.jpg);
-  padding-bottom: 18rem; }
-
-.text-orange {
-  color: #ffbc13; }
-
 /* ______________________ MUDANZAS ____________________________*/
 .bannerMudanza {
   padding-top: 13rem;
@@ -126,8 +202,31 @@ body nav {
   padding-bottom: 18rem;
   background-position: top; }
 
+.btn-secondary {
+  background-color: #05ccc2;
+  border-color: black;
+  color: black; }
+  .btn-secondary:focus {
+    outline: none !important;
+    background-color: #05ccc2;
+    box-shadow: none !important;
+    border-color: black; }
+  .btn-secondary:hover {
+    background-color: #53f5ed;
+    color: black;
+    border-color: black; }
+  .btn-secondary:active {
+    background-color: #f8b200 !important;
+    border-color: black !important;
+    color: black !important; }
+
 .text-blue {
   color: #05ccc2; }
+
+.imgMudanza {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: auto; }
 
 /* __________________________ EMPRESA__________________________*/
 .bannerEmpresa {
@@ -143,6 +242,50 @@ body nav {
   padding-bottom: 18rem;
   background-position: top; }
 
+.imgEmpresa {
+  width: 500px;
+  height: auto; }
+
+.bannerFormulario {
+  padding-top: 13rem;
+  padding-bottom: 12rem;
+  background-image: url(../img/cajaoscura.jpg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  margin-bottom: 15px;
+  padding: 0 1;
+  background-position: top;
+  background-image: url(../img/bannerContactos.jpg); }
+
+.form-group {
+  width: 40%;
+  margin-left: 400px; }
+
+.form-control:focus {
+  background-color: #fff;
+  border-color: #f8b200;
+  box-shadow: none; }
+
+.btn-danger {
+  color: #fff;
+  background-color: #f8b200;
+  border-color: #f8b200;
+  width: 34rem;
+  margin-bottom: 18px; }
+  .btn-danger:hover {
+    background-color: #fff;
+    color: black;
+    border-color: #f8b200; }
+  .btn-danger:focus {
+    background-color: #eec357 !important;
+    border-color: #f8b200 !important;
+    box-shadow: none !important; }
+  .btn-danger:visited {
+    background-color: #eec357 !important;
+    border-color: #f8b200 !important; }
+
 /* __________________________ CONTACTO__________________________*/
 .bannerContacto {
   padding-top: 13rem;
@@ -155,4 +298,4 @@ body nav {
   margin-bottom: 15px;
   background-image: url(../img/bannerContactos.jpg);
   padding-bottom: 18rem;
-  background-position: top; }
+  background-position: repeat; }
