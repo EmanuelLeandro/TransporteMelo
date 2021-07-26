@@ -40,6 +40,18 @@ body nav {
 .nav-item ion-icon {
   font-size: 1.5rem; }
 
+.texto {
+  position: relative;
+  padding-left: 1rem; }
+  .texto:before {
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 1px;
+    left: 0;
+    top: -10px;
+    background: #53f5ed; }
+
 .btn-dark {
   background-color: black;
   border-color: black; }
@@ -116,7 +128,7 @@ body nav {
 .wa a img {
   width: 50px;
   position: fixed;
-  bottom: 100px;
+  bottom: 116px;
   right: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 50%; }
@@ -405,8 +417,11 @@ body nav {
   text-decoration: none;
   color: black; }
   .logosForm ion-icon:hover {
-    background-color: #e4e9f0c9;
-    border-radius: 5px; }
+    background-color: white;
+    border-radius: 3rem; }
+
+.logosForm a:hover {
+  text-decoration: none; }
 
 footer {
   background-color: black;

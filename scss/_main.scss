@@ -18,7 +18,19 @@ body nav {
 		font-size: 1.5rem;
 	}
 }
-
+.texto {
+	position: relative;
+	padding-left: 1rem;
+	&:before {
+		content: '';
+		position: absolute;
+		height: 40px;
+		width: 1px;
+		left: 0;
+		top: -10px;
+		background: $colorCelesteClaro;
+	}
+}
 .btn-dark {
 	background-color: $colorNegro;
 	border-color: $colorNegro;
@@ -88,7 +100,7 @@ body nav {
 .wa a img {
 	width: 50px;
 	position: fixed;
-	bottom: 100px;
+	bottom: 116px;
 	right: 40px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius: 50%;
@@ -370,9 +382,12 @@ body nav {
 	text-decoration: none;
 	color: $colorNegro;
 	&:hover {
-		background-color: #e4e9f0c9;
-		border-radius: 5px;
+		background-color: $colorBlanco;
+		border-radius: 3rem;
 	}
+}
+.logosForm a:hover {
+	text-decoration: none;
 }
 footer {
 	background-color: $colorNegro;
