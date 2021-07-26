@@ -40,6 +40,24 @@ body nav {
 .nav-item ion-icon {
   font-size: 1.5rem; }
 
+.btn-dark {
+  background-color: black;
+  border-color: black; }
+  .btn-dark:hover {
+    background-color: black;
+    border-color: black; }
+  .btn-dark:active {
+    background-color: black !important;
+    border-color: black !important; }
+
+.btn-dark.focus,
+.btn-dark:focus {
+  background-color: black !important;
+  border-color: black !important; }
+
+.bg-dark {
+  background-color: black !important; }
+
 .btn-primario {
   padding: 18px 112px;
   border-radius: 30px;
@@ -93,8 +111,7 @@ body nav {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: cover;
-  margin-bottom: 15px; }
+  background-size: cover; }
 
 .wa a img {
   width: 50px;
@@ -113,9 +130,8 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  margin-bottom: 15px;
   background-image: url(../img/bannerfletes.jpg);
-  padding-bottom: 18rem; }
+  padding-bottom: 25vh; }
 
 .text-orange {
   color: #f8b200; }
@@ -197,9 +213,8 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  margin-bottom: 15px;
   background-image: url(../img/bannerMudanzas.jpg);
-  padding-bottom: 18rem;
+  padding-bottom: 25vh;
   background-position: top; }
 
 .btn-secondary {
@@ -228,7 +243,58 @@ body nav {
   width: 100%;
   height: auto; }
 
-/* __________________________ EMPRESA__________________________*/
+.bannerFormularioMudanza {
+  padding-top: 13rem;
+  padding-bottom: 12rem;
+  background-image: url(../img/cajaoscura.jpg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  padding: 0 1;
+  background-position: top;
+  background-image: url(../img/bannerContactos.jpg); }
+  .bannerFormularioMudanza .form-group {
+    width: 40%;
+    margin-left: 400px; }
+  .bannerFormularioMudanza .form-control:focus {
+    background-color: #fff;
+    border-color: #05ccc2;
+    box-shadow: none; }
+  .bannerFormularioMudanza .btn-danger {
+    color: #fff;
+    background-color: #05ccc2;
+    border-color: #05ccc2;
+    width: 539px;
+    margin-bottom: 18px; }
+    .bannerFormularioMudanza .btn-danger:hover {
+      background-color: #fff;
+      color: black;
+      border-color: #05ccc2; }
+    .bannerFormularioMudanza .btn-danger:focus {
+      background-color: #53f5ed !important;
+      border-color: #05ccc2 !important;
+      box-shadow: none !important; }
+    .bannerFormularioMudanza .btn-danger:visited {
+      background-color: #53f5ed !important;
+      border-color: #05ccc2 !important; }
+
+.btn-contacto {
+  padding: 18px 112px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  background-color: #f8b200;
+  box-shadow: 7px 11px 10px -6px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  color: black;
+  padding: 18px 50px;
+  margin-left: 185px;
+  background-color: #05ccc2; }
+  .btn-contacto:hover {
+    background-color: #53f5ed; }
+
+/* __________________________ NOSOTROS__________________________*/
 .bannerEmpresa {
   padding-top: 13rem;
   padding-bottom: 12rem;
@@ -237,14 +303,14 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  margin-bottom: 15px;
   background-image: url(../img/bannerEmpresas.jpg);
-  padding-bottom: 18rem;
+  padding-bottom: 25vh;
   background-position: top; }
 
 .imgEmpresa {
-  width: 500px;
-  height: auto; }
+  width: 700px;
+  height: auto;
+  margin-left: 174px; }
 
 .bannerFormulario {
   padding-top: 13rem;
@@ -254,37 +320,33 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  margin-bottom: 15px;
   padding: 0 1;
   background-position: top;
   background-image: url(../img/bannerContactos.jpg); }
-
-.form-group {
-  width: 40%;
-  margin-left: 400px; }
-
-.form-control:focus {
-  background-color: #fff;
-  border-color: #f8b200;
-  box-shadow: none; }
-
-.btn-danger {
-  color: #fff;
-  background-color: #f8b200;
-  border-color: #f8b200;
-  width: 34rem;
-  margin-bottom: 18px; }
-  .btn-danger:hover {
+  .bannerFormulario .form-group {
+    width: 40%;
+    margin-left: 400px; }
+  .bannerFormulario .form-control:focus {
     background-color: #fff;
-    color: black;
-    border-color: #f8b200; }
-  .btn-danger:focus {
-    background-color: #eec357 !important;
-    border-color: #f8b200 !important;
-    box-shadow: none !important; }
-  .btn-danger:visited {
-    background-color: #eec357 !important;
-    border-color: #f8b200 !important; }
+    border-color: #f8b200;
+    box-shadow: none; }
+  .bannerFormulario .btn-danger {
+    color: #fff;
+    background-color: #f8b200;
+    border-color: #f8b200;
+    width: 539px;
+    margin-bottom: 18px; }
+    .bannerFormulario .btn-danger:hover {
+      background-color: #fff;
+      color: black;
+      border-color: #f8b200; }
+    .bannerFormulario .btn-danger:focus {
+      background-color: #eec357 !important;
+      border-color: #f8b200 !important;
+      box-shadow: none !important; }
+    .bannerFormulario .btn-danger:visited {
+      background-color: #eec357 !important;
+      border-color: #f8b200 !important; }
 
 /* __________________________ CONTACTO__________________________*/
 .bannerContacto {
@@ -295,7 +357,72 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  margin-bottom: 15px;
   background-image: url(../img/bannerContactos.jpg);
-  padding-bottom: 18rem;
-  background-position: repeat; }
+  padding-bottom: 25vh; }
+
+.bannerFormularioContacto {
+  padding-top: 13rem;
+  padding-bottom: 12rem;
+  background-image: url(../img/cajaoscura.jpg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-image: none;
+  background-color: #e4e3e3;
+  padding-bottom: 25vh;
+  background-position: top;
+  box-shadow: none;
+  padding: 0 1; }
+  .bannerFormularioContacto .form-group {
+    width: 40%;
+    margin-left: 400px; }
+  .bannerFormularioContacto .form-control:focus {
+    background-color: #eec357;
+    border-color: black;
+    box-shadow: none; }
+  .bannerFormularioContacto .btn-danger {
+    color: #eec357;
+    background-color: black;
+    border-color: black;
+    width: 539px;
+    margin-bottom: 18px; }
+    .bannerFormularioContacto .btn-danger:hover {
+      background-color: #eec357;
+      color: black;
+      border-color: black; }
+    .bannerFormularioContacto .btn-danger:focus {
+      background-color: #242323 !important;
+      border-color: black !important;
+      box-shadow: none !important; }
+    .bannerFormularioContacto .btn-danger:visited {
+      background-color: #242323 !important;
+      border-color: black !important; }
+
+.logosForm ion-icon {
+  font-size: 3rem;
+  padding: 0 10px;
+  text-decoration: none;
+  color: black; }
+  .logosForm ion-icon:hover {
+    background-color: #e4e9f0c9;
+    border-radius: 5px; }
+
+footer {
+  background-color: black;
+  height: 220px; }
+  footer ul {
+    list-style: none;
+    padding-left: 50rem; }
+  footer a,
+  footer a:hover {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px; }
+  footer ion-icon {
+    text-decoration: none;
+    color: #53f5ed;
+    font-size: 2rem;
+    margin-left: 200px;
+    margin-bottom: -10px;
+    margin-top: 50px; }

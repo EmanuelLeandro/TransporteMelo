@@ -19,6 +19,28 @@ body nav {
 	}
 }
 
+.btn-dark {
+	background-color: $colorNegro;
+	border-color: $colorNegro;
+
+	&:hover {
+		background-color: $colorNegro;
+		border-color: $colorNegro;
+	}
+	&:active {
+		background-color: $colorNegro !important;
+		border-color: $colorNegro !important;
+	}
+}
+.btn-dark.focus,
+.btn-dark:focus {
+	background-color: $colorNegro !important;
+	border-color: $colorNegro !important;
+}
+
+.bg-dark {
+	background-color: $colorNegro !important;
+}
 .btn-primario {
 	@include boton;
 	&:hover {
@@ -77,7 +99,7 @@ body nav {
 .bannerFletes {
 	@include banner;
 	background-image: url(../img/bannerfletes.jpg);
-	padding-bottom: 18rem;
+	padding-bottom: 25vh;
 }
 
 .text-orange {
@@ -166,7 +188,7 @@ body nav {
 .bannerMudanza {
 	@include banner;
 	background-image: url(../img/bannerMudanzas.jpg);
-	padding-bottom: 18rem;
+	padding-bottom: 25vh;
 	background-position: top;
 }
 .btn-secondary {
@@ -200,17 +222,64 @@ body nav {
 	width: 100%;
 	height: auto;
 }
-/* __________________________ EMPRESA__________________________*/
+.bannerFormularioMudanza {
+	@include banner;
+	padding: 0 1;
+	background-position: top;
+	background-image: url(../img/bannerContactos.jpg);
+	.form-group {
+		width: 40%;
+		margin-left: 400px;
+	}
+	.form-control:focus {
+		background-color: #fff;
+		border-color: $colorCeleste;
+		box-shadow: none;
+	}
+	.btn-danger {
+		color: #fff;
+		background-color: $colorCeleste;
+		border-color: $colorCeleste;
+		width: 539px;
+		margin-bottom: 18px;
+		&:hover {
+			background-color: #fff;
+			color: $colorNegro;
+			border-color: $colorCeleste;
+		}
+		&:focus {
+			background-color: $colorCelesteClaro !important;
+			border-color: $colorCeleste !important;
+			box-shadow: none !important;
+		}
+		&:visited {
+			background-color: $colorCelesteClaro !important;
+			border-color: $colorCeleste !important;
+		}
+	}
+}
+
+.btn-contacto {
+	@include boton;
+	padding: 18px 50px;
+	margin-left: 185px;
+	background-color: $colorCeleste;
+	&:hover {
+		background-color: $colorCelesteClaro;
+	}
+}
+/* __________________________ NOSOTROS__________________________*/
 .bannerEmpresa {
 	@include banner;
 	background-image: url(../img/bannerEmpresas.jpg);
-	padding-bottom: 18rem;
+	padding-bottom: 25vh;
 	background-position: top;
 }
 
 .imgEmpresa {
-	width: 500px;
+	width: 700px;
 	height: auto;
+	margin-left: 174px;
 }
 
 .bannerFormulario {
@@ -218,35 +287,35 @@ body nav {
 	padding: 0 1;
 	background-position: top;
 	background-image: url(../img/bannerContactos.jpg);
-}
-.form-group {
-	width: 40%;
-	margin-left: 400px;
-}
-.form-control:focus {
-	background-color: #fff;
-	border-color: $colorNaranja;
-	box-shadow: none;
-}
-.btn-danger {
-	color: #fff;
-	background-color: $colorNaranja;
-	border-color: $colorNaranja;
-	width: 34rem;
-	margin-bottom: 18px;
-	&:hover {
+	.form-group {
+		width: 40%;
+		margin-left: 400px;
+	}
+	.form-control:focus {
 		background-color: #fff;
-		color: $colorNegro;
 		border-color: $colorNaranja;
+		box-shadow: none;
 	}
-	&:focus {
-		background-color: $colorNaranjaClaro !important;
-		border-color: $colorNaranja !important;
-		box-shadow: none !important;
-	}
-	&:visited {
-		background-color: $colorNaranjaClaro !important;
-		border-color: $colorNaranja !important;
+	.btn-danger {
+		color: #fff;
+		background-color: $colorNaranja;
+		border-color: $colorNaranja;
+		width: 539px;
+		margin-bottom: 18px;
+		&:hover {
+			background-color: #fff;
+			color: $colorNegro;
+			border-color: $colorNaranja;
+		}
+		&:focus {
+			background-color: $colorNaranjaClaro !important;
+			border-color: $colorNaranja !important;
+			box-shadow: none !important;
+		}
+		&:visited {
+			background-color: $colorNaranjaClaro !important;
+			border-color: $colorNaranja !important;
+		}
 	}
 }
 
@@ -254,6 +323,76 @@ body nav {
 .bannerContacto {
 	@include banner;
 	background-image: url(../img/bannerContactos.jpg);
-	padding-bottom: 18rem;
-	background-position: repeat;
+	padding-bottom: 25vh;
+}
+.bannerFormularioContacto {
+	@include banner;
+	background-image: none;
+	background-color: rgb(228, 227, 227);
+	padding-bottom: 25vh;
+	background-position: top;
+	box-shadow: none;
+	padding: 0 1;
+	.form-group {
+		width: 40%;
+		margin-left: 400px;
+	}
+	.form-control:focus {
+		background-color: $colorNaranjaClaro;
+		border-color: $colorNegro;
+		box-shadow: none;
+	}
+	.btn-danger {
+		color: $colorNaranjaClaro;
+		background-color: $colorNegro;
+		border-color: $colorNegro;
+		width: 539px;
+		margin-bottom: 18px;
+		&:hover {
+			background-color: $colorNaranjaClaro;
+			color: $colorNegro;
+			border-color: $colorNegro;
+		}
+		&:focus {
+			background-color: rgb(36, 35, 35) !important;
+			border-color: $colorNegro !important;
+			box-shadow: none !important;
+		}
+		&:visited {
+			background-color: rgb(36, 35, 35) !important;
+			border-color: $colorNegro !important;
+		}
+	}
+}
+.logosForm ion-icon {
+	font-size: 3rem;
+	padding: 0 10px;
+	text-decoration: none;
+	color: $colorNegro;
+	&:hover {
+		background-color: #e4e9f0c9;
+		border-radius: 5px;
+	}
+}
+footer {
+	background-color: $colorNegro;
+	height: 220px;
+	ul {
+		list-style: none;
+		padding-left: 50rem;
+	}
+	a,
+	a:hover {
+		text-decoration: none;
+		color: $colorBlanco;
+		margin-left: 10px;
+	}
+	ion-icon {
+		text-decoration: none;
+		color: $colorCelesteClaro;
+		font-size: 2rem;
+		margin-left: 200px;
+		margin-bottom: -10px;
+		margin-top: 50px;
+	}
 }

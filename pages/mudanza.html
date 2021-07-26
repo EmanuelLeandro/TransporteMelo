@@ -10,8 +10,8 @@
     <title>Transporte Melo</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg nav-light bg-color">
-    <a class="navbar-brand text-dark font-weight-bold" href="index.html">Transporte Melo</a>
+  <nav class="navbar navbar-expand-lg ">
+    <a class="navbar-brand text-light text-md type-bold" href="../index.html">Transporte Melo</a>
 
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-dark ml-auto" data-toggle="modal" data-target="#staticBackdrop">
@@ -111,12 +111,31 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210147.39707532423!2d-58.57338494756603!3d-34.615461116377574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1627166093777!5m2!1ses-419!2sar" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy">
       </iframe>
 
-      <article>
-      <h2 class="type-extraBold text-lg text-center mt-5">Tipos de vehículos</h2>
-      <p class="type-medium text-md text-center">
-        Nuestra amplia flota nos permite cubrir todas tus necesidades, hacé click en “ver medidas” y conocé las dimensiones de cada unidad
-      </p>
-    </article>
+  <article class="bannerFormularioMudanza">
+    <div>
+      <p class="type-extrabold text-lg text-center text-blue mt-5">QUIERO QUE ME LLAMEN</p>
+      
+      <form action="">
+        <div class="form-group">
+          <input type="text" name="nombre" placeholder="Nombre" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="number" name="teléfono" placeholder="Teléfono"class="form-control">
+        </div>
+        <div class="form-group">
+          <button class="btn btn-danger" type="submit" name="Enviar Datos">Enviar</button>
+          <button class="btn btn-danger" type="reset" name="Borrar">Borrar</button>
+        </div>
+      </form>
+    </div>
+  </article>
+
+  <article>
+    <h2 class="type-extraBold text-lg text-center mt-5">Tipos de vehículos</h2>
+    <p class="type-medium text-md text-center">
+      Nuestra amplia flota nos permite cubrir todas tus necesidades, hacé click en “ver medidas” y conocé las dimensiones de cada unidad
+    </p>
+</article>
   <!-- card 1 -->
   <div class="d-flex no-gutters ml-5">
     <div class="col-4 ml-5">
@@ -207,17 +226,70 @@
         </div>
       </div>
 </div>
+<article class="bannerPagos text-center ">
+  <div class="textoPagos">
+    <h2 class="type-extraBold text-lg mt-5">Pagá con tarjeta y en cuotas</h2>
+    <p class="type-bold text-md mb-5">
+      Podés pagar con tarjeta de crédito, débito o transferencia bancaria. No tomamos seña por la reserva
+      ni cobramos por adelantado, cualquier medio de pago que elijas lo abonas al finalizar el servicio.
+    </p>
+  </div>
+  <div class="imgTarjetas">
+    <a href="https://www.mercadopago.com.ar/"><img src="../img/mercado-pago-banner.png" alt="formas de pago"></a>
+  </div>
+</article>
+
+
+
+<article class="text-center mt-5">
+<h2 class="type-extraBold text-lg">Seguridad y Respaldo</h2>
+  <p class="type-bold text-md">
+    Contamos con la cobertura necesaria para evitar cualquier tipo de inconveniente.
+  </p> 
+
+<div class="logosSecundarios d-flex justify-content-between ">
+  <div class="box">
+    <div class="logo">
+      <a href="https://www.lojacklatam.com/"><img src="../img/lojack-logo-final.png" alt=""></a>
+    </div>
+  </div>
+  <div class="box">
+    <div class="logo">
+      <a href="https://www.mapfre.com.ar/seguros-ar/"><img  src="../img/mapfre-logo-final.png" alt=""></a>
+  </div>
+  </div>
+  <div class="box">
+    <div class="logo">
+      <a href="https://www.buenosaires.gob.ar/tramites/vtv"><img   src="../img/vtv-logo-final.png" alt=""></a>
+    </div>
+  </div>
+</div>
+</article>
 
 <article class="d-flex mt-5">
   <div>
     <h2 class="type-extraBold text-lg text-center mt-5">Mudanzas Corportativas</h2>
-    <p class="type-medium text-md text-center ">
+    <p class="type-medium text-md text-center mb-5">
       Transporte Melo, tiene amplia experiencia en traslado de empresas y oficinas con responsabilidad, seriedad y confianza. Llevamos adelante el servicio con un plan logístico sin interrumpir el normal desarrollo de las actividades de la empresa, planificando el servicio a medida y participando de la coordinación de todos los factores en juego, para evitar perder la productividad.
     </p>
+    <a class="btn-contacto btn-primario mr-5 type-medium text-md" href="contacto.html">Contacto</a>
   </div>
   <img  class="imgMudanza ml-5 mt-5"src="../img/mudanzaempresa.jpg" alt="">
+  
 </article>
-     
+
+<footer class="text-left">
+  <div class="text-center text-md type-regular text-light pt-4">
+    <a href="../index.html">Transporte Melo</a>
+  </div>
+  <a href="tel:+34555005500"><ion-icon name="call-outline" ></ion-icon>011 27068809</a>
+  <a  href="mailto:example@email.com?subject=Email%20Subject&body=Email%20Body%20Text"><ion-icon name="mail-outline" ></ion-icon>transportemelo10@gmail.com</a>
+  <a href="https://www.google.com/maps/place/Transporte+Melo/@-34.5489688,-58.4996886,15z/data=!4m5!3m4!1s0x0:0x21dfe3660a6f0bb!8m2!3d-34.5489123!4d-58.4996679"><ion-icon name="location-outline"></ion-icon>Zufriategui 3535,Florida</a>
+  <p class="text-center mt-5 text-sm type-regular text-light">© 2021 - Todos los Derechos Reservados - TransporteMelo</p>
+</footer>
+ 
+
+
 
     
 
