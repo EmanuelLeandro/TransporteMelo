@@ -123,7 +123,8 @@ body nav {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: cover; }
+  background-size: cover;
+  height: 100vh; }
 
 .wa a img {
   width: 50px;
@@ -142,6 +143,7 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+  height: 100vh;
   background-image: url(../img/bannerfletes.jpg);
   padding-bottom: 25vh; }
 
@@ -225,6 +227,7 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+  height: 100vh;
   background-image: url(../img/bannerMudanzas.jpg);
   padding-bottom: 25vh;
   background-position: top; }
@@ -263,6 +266,7 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+  height: 100vh;
   padding: 0 1;
   background-position: top;
   background-image: url(../img/bannerContactos.jpg); }
@@ -315,6 +319,7 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+  height: 100vh;
   background-image: url(../img/bannerEmpresas.jpg);
   padding-bottom: 25vh;
   background-position: top; }
@@ -332,6 +337,7 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+  height: 100vh;
   padding: 0 1;
   background-position: top;
   background-image: url(../img/bannerContactos.jpg); }
@@ -369,6 +375,7 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+  height: 100vh;
   background-image: url(../img/bannerContactos.jpg);
   padding-bottom: 25vh; }
 
@@ -380,6 +387,7 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+  height: 100vh;
   background-image: none;
   background-color: #e4e3e3;
   padding-bottom: 25vh;
@@ -441,3 +449,42 @@ footer {
     margin-left: 200px;
     margin-bottom: -10px;
     margin-top: 50px; }
+
+/*______________________________ MOBILE____________________________*/
+@media all and (max-width: 380px) {
+  footer {
+    height: 280px;
+    display: flex;
+    flex-direction: column; }
+  footer ion-icon {
+    text-decoration: none;
+    color: #53f5ed;
+    font-size: 1rem;
+    margin-left: 305px;
+    margin-bottom: -33px;
+    margin-top: 44px; }
+  footer .text-sm {
+    font-size: 7px; }
+  .banner {
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    height: 50%; }
+  .container {
+    padding-right: 0px;
+    padding-left: 0; }
+  .container p {
+    font-size: 28px; }
+  .container .type-bold {
+    font-size: 12px; }
+  .btn-primario,
+  .btn-secundario {
+    margin-left: 36px;
+    margin-top: 19px;
+    padding: 5px 70px;
+    display: flex;
+    width: inherit; }
+  .wa a img {
+    width: 40px;
+    position: fixed;
+    bottom: 270px;
+    right: 29px; } }
