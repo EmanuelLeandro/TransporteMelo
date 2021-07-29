@@ -465,14 +465,24 @@ footer {
     margin-top: 44px; }
   footer .text-sm {
     font-size: 7px; }
-  .banner {
+  .banner,
+  .bannerFletes,
+  .bannerFormulario,
+  .bannerFormularioMudanza,
+  .bannerMudanza {
     padding-top: 1rem;
     padding-bottom: 0rem;
     height: 50%; }
+  .bannerFormularioContacto {
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    height: 100%; }
   .container {
     padding-right: 0px;
     padding-left: 0; }
   .container p {
+    font-size: 14px; }
+  .container h1 {
     font-size: 28px; }
   .container .type-bold {
     font-size: 12px; }
@@ -487,4 +497,77 @@ footer {
     width: 40px;
     position: fixed;
     bottom: 270px;
-    right: 29px; } }
+    right: 29px; }
+  .text-lg {
+    margin-top: 10px;
+    font-size: 28px; }
+  .d-flex {
+    flex-direction: column; }
+  .pl-5,
+  .px-5 {
+    padding-left: 1rem !important; }
+  .bannerPagos {
+    margin-bottom: 7rem; }
+  .textoPagos p {
+    font-size: 14px; }
+  .imgTarjetas img {
+    width: 100%; }
+  .logoSecundario {
+    margin-bottom: 10px; }
+  .box {
+    margin-bottom: 10px; }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 127px; }
+  .carousel-item img {
+    width: 100%; }
+  .bannerFormulario .btn-danger {
+    color: #fff;
+    background-color: #f8b200;
+    border-color: #f8b200;
+    width: 171px;
+    margin-bottom: 8px; }
+  .bannerFormularioMudanza .btn-danger {
+    color: #fff;
+    background-color: #05ccc2;
+    border-color: #05ccc2;
+    width: 171px;
+    margin-bottom: 8px; }
+  .bannerFormulario .form-group,
+  .bannerFormularioMudanza .form-group,
+  .bannerFormularioContacto .form-group {
+    width: 63%; }
+  .bannerFormularioContacto {
+    margin-top: 0; }
+  .bannerFormularioContacto .btn-danger {
+    color: #eec357;
+    background-color: black;
+    border-color: black;
+    margin-bottom: 18px;
+    width: 172px; }
+  .logosForm ion-icon {
+    font-size: 2rem; }
+  .col-4 {
+    margin: 20px 0 80px; }
+  .imgMudanza {
+    width: 99%;
+    height: auto; }
+  .ml-5,
+  .mx-5 {
+    margin-left: 0 !important; }
+  .text-xlg {
+    font-size: 28px; }
+  .text-md {
+    font-size: 14px; }
+  .imgEmpresa {
+    width: 100%;
+    margin: 0; }
+  iframe {
+    width: 95%; }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 82px; } }
