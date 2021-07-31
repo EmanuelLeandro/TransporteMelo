@@ -362,6 +362,19 @@ body nav {
     border-color: #f8b200 !important; }
 
 /* __________________________ CONTACTO__________________________*/
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 400px; }
+  form .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    form .form-group button {
+      width: 100%; }
+
 .bannerContacto {
   padding-top: 13rem;
   padding-bottom: 12rem;
@@ -513,20 +526,19 @@ footer {
   form {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    margin: 0 20px; }
   .carousel-item img {
     width: 100%; }
   .bannerFormulario .btn-danger {
     color: #fff;
     background-color: #f8b200;
     border-color: #f8b200;
-    width: 181px;
     margin-bottom: 8px; }
   .bannerFormularioMudanza .btn-danger {
     color: #fff;
     background-color: #05ccc2;
     border-color: #05ccc2;
-    width: 181px;
     margin-bottom: 8px; }
   .bannerFormularioContacto {
     margin-top: 0; }
@@ -534,8 +546,7 @@ footer {
     color: #eec357;
     background-color: black;
     border-color: black;
-    margin-bottom: 18px;
-    width: 181px; }
+    margin-bottom: 18px; }
   .logosForm ion-icon {
     font-size: 2rem; }
   .col-4 {
