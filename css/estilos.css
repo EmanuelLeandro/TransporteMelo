@@ -40,6 +40,9 @@ body nav {
 .nav-item ion-icon {
   font-size: 1.5rem; }
 
+.text-white:hover {
+  color: #05ccc2 !important; }
+
 .texto {
   position: relative;
   padding-left: 1rem; }
@@ -104,10 +107,10 @@ body nav {
 .modalMenu .close {
   float: right;
   font-size: 2.5rem;
-  color: #f8f9fa;
+  color: #fff;
   text-shadow: 0 1px 0 #fff; }
   .modalMenu .close:hover {
-    color: #fff; }
+    color: #05ccc2; }
   .modalMenu .close:focus {
     outline: none; }
 
@@ -123,8 +126,7 @@ body nav {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: cover;
-  height: 100vh; }
+  background-size: cover; }
 
 .wa a img {
   width: 50px;
@@ -143,7 +145,6 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  height: 100vh;
   background-image: url(../img/bannerfletes.jpg);
   padding-bottom: 25vh; }
 
@@ -227,7 +228,6 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  height: 100vh;
   background-image: url(../img/bannerMudanzas.jpg);
   padding-bottom: 25vh;
   background-position: top; }
@@ -256,7 +256,8 @@ body nav {
 .imgMudanza {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
-  height: auto; }
+  height: auto;
+  margin-bottom: 20px; }
 
 .bannerFormularioMudanza {
   padding-top: 13rem;
@@ -266,7 +267,6 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  height: 100vh;
   padding: 0 1;
   background-position: top;
   background-image: url(../img/bannerContactos.jpg); }
@@ -319,7 +319,6 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  height: 100vh;
   background-image: url(../img/bannerEmpresas.jpg);
   padding-bottom: 25vh;
   background-position: top; }
@@ -337,7 +336,6 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  height: 100vh;
   padding: 0 1;
   background-position: top;
   background-image: url(../img/bannerContactos.jpg); }
@@ -375,7 +373,6 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  height: 100vh;
   background-image: url(../img/bannerContactos.jpg);
   padding-bottom: 25vh; }
 
@@ -387,7 +384,6 @@ body nav {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-  height: 100vh;
   background-image: none;
   background-color: #e4e3e3;
   padding-bottom: 25vh;
@@ -515,7 +511,7 @@ footer {
   .logoSecundario {
     margin-bottom: 10px; }
   .box {
-    margin-bottom: 10px; }
+    margin: 0 0 10px; }
   form {
     display: flex;
     flex-direction: column;

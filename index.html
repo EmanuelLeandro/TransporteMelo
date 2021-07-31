@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/estilos.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
@@ -10,97 +11,91 @@
     <title>Transporte Melo</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg ">
-        <a class="navbar-brand text-light text-md type-bold" href="index.html">Transporte Melo</a>
-  
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-dark ml-auto" data-toggle="modal" data-target="#staticBackdrop">
-           <div class="ml-auto">
-              <ul class="navbar-nav mt-2 mt-lg-0">
-                 <li class="nav-item active ">
-                  <ion-icon name="menu-outline" clas></ion-icon>
-                </li>
-             </ul>
-          </div> 
-        </button>
-            <!-- Modal -->
-        <div class="modalMenu modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" >
-          <div class="modal-dialog">
-            <div class="modal-content bg-dark">
-              <div class="modal-header border-bottom-0">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-                <div class="modal-body text-center">
-                  <ul class="list-unstyled">
-                    <li class="display-4 mb-2" >
-                      <a class="text-white" href="index.html">Inicio<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="display-4 mb-2">
-                      <a class="nav-link text-black" href="pages/fletes.html">Fletes</a>
-                    </li>
-                    <li class="display-4 mb-2">
-                      <a class="nav-link text-black" href="pages/mudanza.html">Mudanzas</a>
-                    </li>
-                    <li class="display-4 mb-2">
-                      <a class="nav-link text-black" href="pages/empresa.html">Nosotros</a>
-                    </li>
-                    <li class="display-4 mb-2">
-                      <a class="nav-link text-black" href="pages/contacto.html">Contacto</a>
-                    </li>
-                  </ul>
-          
-                </div>
-           </div>
+  <nav class="navbar navbar-expand-lg ">
+    <a class="navbar-brand text-light text-md type-bold" href="index.html">Transporte Melo</a>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-dark ml-auto" data-toggle="modal" data-target="#staticBackdrop">
+        <div class="ml-auto">
+          <ul class="navbar-nav mt-2 mt-lg-0">
+              <li class="nav-item active ">
+              <ion-icon name="menu-outline" clas></ion-icon>
+            </li>
+          </ul>
+      </div> 
+    </button>
+        <!-- Modal -->
+    <div class="modalMenu modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" >
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <div class="modal-header border-bottom-0">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-        </div>
-      </nav>
-      <!-- fin del nav -->
-      <div class="banner text-center">
-        <div class="container mb-1">
-          <article class="text-center w-75 mx-auto">
-            <p class="text-light display-4 type-extraBold text-xlg">¿QUÉ NECESITAS?</p>
-            <p class="text-light mb-5 type-bold">
-              HACÉ CLICK EN EL SERVICIO QUE BUSCAS PARA CONOCER PRECIOS Y MEDIDAS DE LOS VEHÍCULOS
-            </p> 
-            <a class="btn-primario mr-5 type-medium text-md" href="pages/fletes.html">Fletes</a>
-            <a class="btn-secundario type-medium text-md" href="pages/mudanza.html" >Mudanzas</a>
-          </article>
+            <div class="modal-body text-center">
+              <ul class="list-unstyled">
+                <li class="display-4 mb-2" >
+                  <a class="text-white" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="display-4 mb-2">
+                  <a class="nav-link text-white" href="pages/fletes.html">Fletes</a>
+                </li>
+                <li class="display-4 mb-2">
+                  <a class="nav-link text-white" href="pages/mudanza.html">Mudanzas</a>
+                </li>
+                <li class="display-4 mb-2">
+                  <a class="nav-link text-white" href="pages/empresa.html">Nosotros</a>
+                </li>
+                <li class="display-4 mb-2">
+                  <a class="nav-link text-white" href="pages/contacto.html">Contacto</a>
+                </li>
+              </ul>
+      
+            </div>
         </div>
       </div>
-      
-      
+    </div>
+  </nav>
+      <!-- fin del nav -->
+  <div class="banner text-center">
+    <div class="container mb-1 ">
+      <article class="text-center w-75 mx-auto">
+        <p class="text-light display-4 type-extraBold text-xlg ">¿QUÉ NECESITAS?</p>
+        <p class="text-light mb-5 type-bold">
+          HACÉ CLICK EN EL SERVICIO QUE BUSCAS PARA CONOCER PRECIOS Y MEDIDAS DE LOS VEHÍCULOS
+        </p> 
+        <a class="btn-primario mr-5 type-medium text-md" href="pages/fletes.html">Fletes</a>
+        <a class="btn-secundario type-medium text-md" href="pages/mudanza.html" >Mudanzas</a>
+      </article>
+    </div>
+  </div>
+  
+  
     
 
 
 
 
-      <div class="wa">        
-        <a href="https://api.whatsapp.com/send?phone=5491127068809&text=Quiero%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20TransporteMelo"><img src="img/wa.png" alt=""/></a>
-      </div>
+  <div class="wa">        
+    <a href="https://api.whatsapp.com/send?phone=5491127068809&text=Quiero%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20TransporteMelo"><img src="img/wa.png" alt=""/></a>
+  </div>
 
 
 
 
 
-      <footer class="text-left">
-        <div class="text-center text-md type-regular text-light pt-4">
-          <a href="index.html">Transporte Melo</a>
-        </div>
-        <a href="tel:+011 27068809"><ion-icon name="call-outline" ></ion-icon><span class="texto ml-3">011 27068809</span></a>
-        <a  href="mailto:example@email.com?subject=Email%20Subject&body=Email%20Body%20Text"><ion-icon name="mail-outline" ></ion-icon><span class="texto ml-3">transportemelo10@gmail.com</span></a>
-        <a href="https://www.google.com/maps/place/Transporte+Melo/@-34.5489688,-58.4996886,15z/data=!4m5!3m4!1s0x0:0x21dfe3660a6f0bb!8m2!3d-34.5489123!4d-58.4996679"><ion-icon name="location-outline"></ion-icon><span class="texto ml-3">Zufriategui 3535,Florida</span></a>
-        <p class="text-center mt-5 text-sm type-regular text-light">© 2021 - Todos los Derechos Reservados - TransporteMelo</p>
-      </footer>
-       
-      
-
-
-
-
-
-
+  <footer class="text-left">
+    <div class="text-center text-md type-regular text-light pt-4">
+      <a href="index.html">Transporte Melo</a>
+    </div>
+    <a href="tel:+011 27068809"><ion-icon name="call-outline" ></ion-icon><span class="texto ml-3">011 27068809</span></a>
+    <a  href="mailto:example@email.com?subject=Email%20Subject&body=Email%20Body%20Text"><ion-icon name="mail-outline" ></ion-icon><span class="texto ml-3">transportemelo10@gmail.com</span></a>
+    <a href="https://www.google.com/maps/place/Transporte+Melo/@-34.5489688,-58.4996886,15z/data=!4m5!3m4!1s0x0:0x21dfe3660a6f0bb!8m2!3d-34.5489123!4d-58.4996679"><ion-icon name="location-outline"></ion-icon><span class="texto ml-3">Zufriategui 3535,Florida</span></a>
+    <p class="text-center mt-5 text-sm type-regular text-light">© 2021 - Todos los Derechos Reservados - TransporteMelo</p>
+  </footer>
+    
+  
 
 
 
@@ -109,8 +104,14 @@
 
 
 
-      <script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
-      <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+  <script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
