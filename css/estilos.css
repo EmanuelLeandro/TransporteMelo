@@ -246,7 +246,7 @@ body nav {
     color: black;
     border-color: black; }
   .btn-secondary:active {
-    background-color: #f8b200 !important;
+    background-color: #05ccc2 !important;
     border-color: black !important;
     color: black !important; }
 
@@ -468,7 +468,7 @@ footer {
   .bannerMudanza {
     padding-top: 1rem;
     padding-bottom: 0rem;
-    height: 50%; }
+    height: 58%; }
   .bannerFormularioContacto {
     padding-top: 1rem;
     padding-bottom: 0rem;
@@ -476,17 +476,16 @@ footer {
   .container {
     padding-right: 0px;
     padding-left: 0; }
-  .container p {
-    font-size: 14px; }
+  .container p .text-xlg {
+    font-size: 40px; }
   .container h1 {
-    font-size: 28px; }
+    font-size: 50px; }
   .container .type-bold {
-    font-size: 12px; }
+    font-size: 15px; }
   .btn-primario,
   .btn-secundario {
-    margin-left: 36px;
-    margin-top: 19px;
-    padding: 5px 70px;
+    margin: 26px;
+    padding: 6px 74px 11px;
     display: flex;
     width: inherit; }
   .wa a img {
@@ -496,14 +495,17 @@ footer {
     right: 29px; }
   .text-lg {
     margin-top: 10px;
-    font-size: 28px; }
+    font-size: 28px;
+    margin-top: 35px; }
   .d-flex {
     flex-direction: column; }
   .pl-5,
   .px-5 {
     padding-left: 1rem !important; }
   .bannerPagos {
-    margin-bottom: 7rem; }
+    margin-bottom: 4rem; }
+  .textoPagos {
+    padding-top: 0; }
   .textoPagos p {
     font-size: 14px; }
   .imgTarjetas img {
@@ -554,16 +556,16 @@ footer {
   .mx-5 {
     margin-left: 0 !important; }
   .text-xlg {
-    font-size: 28px; }
+    font-size: 40px; }
   .text-md {
     font-size: 14px; }
   .imgEmpresa {
     width: 100%;
     margin: 0; }
-  iframe {
-    width: 95%; }
   form {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-right: 82px; } }
+    margin-right: 82px; }
+  .text-center iframe {
+    width: 100%; } }
