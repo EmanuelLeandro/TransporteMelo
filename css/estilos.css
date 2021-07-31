@@ -269,30 +269,29 @@ body nav {
   padding: 0 1;
   background-position: top;
   background-image: url(../img/bannerContactos.jpg); }
-  .bannerFormularioMudanza .form-group {
-    width: 40%;
-    margin-left: 400px; }
-  .bannerFormularioMudanza .form-control:focus {
+
+.form-control:focus {
+  background-color: #fff;
+  border-color: #05ccc2;
+  box-shadow: none; }
+
+.btn-danger {
+  color: #fff;
+  background-color: #05ccc2;
+  border-color: #05ccc2;
+  width: 539px;
+  margin-bottom: 18px; }
+  .btn-danger:hover {
     background-color: #fff;
-    border-color: #05ccc2;
-    box-shadow: none; }
-  .bannerFormularioMudanza .btn-danger {
-    color: #fff;
-    background-color: #05ccc2;
-    border-color: #05ccc2;
-    width: 539px;
-    margin-bottom: 18px; }
-    .bannerFormularioMudanza .btn-danger:hover {
-      background-color: #fff;
-      color: black;
-      border-color: #05ccc2; }
-    .bannerFormularioMudanza .btn-danger:focus {
-      background-color: #53f5ed !important;
-      border-color: #05ccc2 !important;
-      box-shadow: none !important; }
-    .bannerFormularioMudanza .btn-danger:visited {
-      background-color: #53f5ed !important;
-      border-color: #05ccc2 !important; }
+    color: black;
+    border-color: #05ccc2; }
+  .btn-danger:focus {
+    background-color: #53f5ed !important;
+    border-color: #05ccc2 !important;
+    box-shadow: none !important; }
+  .btn-danger:visited {
+    background-color: #53f5ed !important;
+    border-color: #05ccc2 !important; }
 
 .btn-contacto {
   padding: 18px 112px;
@@ -338,30 +337,29 @@ body nav {
   padding: 0 1;
   background-position: top;
   background-image: url(../img/bannerContactos.jpg); }
-  .bannerFormulario .form-group {
-    width: 40%;
-    margin-left: 400px; }
-  .bannerFormulario .form-control:focus {
+
+.form-control:focus {
+  background-color: #fff;
+  border-color: #f8b200;
+  box-shadow: none; }
+
+.btn-danger {
+  color: #fff;
+  background-color: #f8b200;
+  border-color: #f8b200;
+  width: 539px;
+  margin-bottom: 18px; }
+  .btn-danger:hover {
     background-color: #fff;
-    border-color: #f8b200;
-    box-shadow: none; }
-  .bannerFormulario .btn-danger {
-    color: #fff;
-    background-color: #f8b200;
-    border-color: #f8b200;
-    width: 539px;
-    margin-bottom: 18px; }
-    .bannerFormulario .btn-danger:hover {
-      background-color: #fff;
-      color: black;
-      border-color: #f8b200; }
-    .bannerFormulario .btn-danger:focus {
-      background-color: #eec357 !important;
-      border-color: #f8b200 !important;
-      box-shadow: none !important; }
-    .bannerFormulario .btn-danger:visited {
-      background-color: #eec357 !important;
-      border-color: #f8b200 !important; }
+    color: black;
+    border-color: #f8b200; }
+  .btn-danger:focus {
+    background-color: #eec357 !important;
+    border-color: #f8b200 !important;
+    box-shadow: none !important; }
+  .btn-danger:visited {
+    background-color: #eec357 !important;
+    border-color: #f8b200 !important; }
 
 /* __________________________ CONTACTO__________________________*/
 .bannerContacto {
@@ -389,9 +387,6 @@ body nav {
   background-position: top;
   box-shadow: none;
   padding: 0 1; }
-  .bannerFormularioContacto .form-group {
-    width: 40%;
-    margin-left: 400px; }
   .bannerFormularioContacto .form-control:focus {
     background-color: #eec357;
     border-color: black;
@@ -518,26 +513,21 @@ footer {
   form {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    margin-right: 127px; }
+    align-items: center; }
   .carousel-item img {
     width: 100%; }
   .bannerFormulario .btn-danger {
     color: #fff;
     background-color: #f8b200;
     border-color: #f8b200;
-    width: 171px;
+    width: 181px;
     margin-bottom: 8px; }
   .bannerFormularioMudanza .btn-danger {
     color: #fff;
     background-color: #05ccc2;
     border-color: #05ccc2;
-    width: 171px;
+    width: 181px;
     margin-bottom: 8px; }
-  .bannerFormulario .form-group,
-  .bannerFormularioMudanza .form-group,
-  .bannerFormularioContacto .form-group {
-    width: 63%; }
   .bannerFormularioContacto {
     margin-top: 0; }
   .bannerFormularioContacto .btn-danger {
@@ -545,7 +535,7 @@ footer {
     background-color: black;
     border-color: black;
     margin-bottom: 18px;
-    width: 172px; }
+    width: 181px; }
   .logosForm ion-icon {
     font-size: 2rem; }
   .col-4 {
@@ -563,10 +553,5 @@ footer {
   .imgEmpresa {
     width: 100%;
     margin: 0; }
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 82px; }
   .text-center iframe {
     width: 100%; } }
