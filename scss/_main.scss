@@ -383,6 +383,9 @@ body nav {
 			border-color: $colorNegro !important;
 		}
 	}
+	.textarea {
+		resize: none;
+	}
 }
 .logosForm ion-icon {
 	font-size: 3rem;
