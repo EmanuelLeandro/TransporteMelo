@@ -396,6 +396,8 @@ body nav {
     background-color: #eec357;
     border-color: black;
     box-shadow: none; }
+  .bannerFormularioContacto .textarea {
+    resize: none !important; }
   .bannerFormularioContacto .btn-danger {
     color: #eec357;
     background-color: black;
@@ -413,8 +415,6 @@ body nav {
     .bannerFormularioContacto .btn-danger:visited {
       background-color: #242323 !important;
       border-color: black !important; }
-  .bannerFormularioContacto .textarea {
-    resize: none; }
 
 .logosForm ion-icon {
   font-size: 3rem;

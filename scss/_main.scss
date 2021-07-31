@@ -362,6 +362,10 @@ body nav {
 		border-color: $colorNegro;
 		box-shadow: none;
 	}
+	.textarea {
+		resize: none !important;
+	}
+
 	.btn-danger {
 		color: $colorNaranjaClaro;
 		background-color: $colorNegro;
@@ -382,9 +386,6 @@ body nav {
 			background-color: rgb(36, 35, 35) !important;
 			border-color: $colorNegro !important;
 		}
-	}
-	.textarea {
-		resize: none;
 	}
 }
 .logosForm ion-icon {
